@@ -12,5 +12,5 @@ FILES=$(ls *.txt)
 
 for file in $FILES
 do
-    echo $file
+    xargs < $file -P 4 -L 1 wget -O
 done
