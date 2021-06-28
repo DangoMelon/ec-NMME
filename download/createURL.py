@@ -1,6 +1,8 @@
 import numpy as np
 from dmelon import utils
 
+import os
+
 MODELS = {
     "CanCM4i": {"HINDCAST": {"members": 10}, "FORECAST": {"members": 10}},
     "NCEP-CFSv2": {
@@ -19,8 +21,10 @@ MODELS = {
 }
 
 BASE = "http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.{MODEL_NAME}/.{TYPE}/{PREFIX}.MONTHLY/.sst/M/({MEMBER})VALUES/data.nc"
+OUTPUT_DIR = "/data/users/grivera/NMME"
 
 utils.check_folder("models")
+utils.check_folder(OUTPUT_DIR)
 
 for MODEL_NAME, values in MODELS.items():
     if "base" in values:
@@ -30,7 +34,9 @@ for MODEL_NAME, values in MODELS.items():
         PREFIX = _v["prefix"] if "prefix" in _v else ""
         with open(f"models/{MODEL_NAME}.{TYPE}.txt", "w") as f:
             for MEMBER in members:
-                FILE_NAME = f"{MODEL_NAME}.{TYPE}.M{MEMBER}.nc"
+                FILE_NAME = os.path.join(
+                    OUTPUT_DIR, f"{MODEL_NAME}.{TYPE}.M{MEMBER}.nc"
+                )
                 URL = BASE.format(
                     MODEL_NAME=MODEL_NAME, TYPE=TYPE, PREFIX=PREFIX, MEMBER=MEMBER
                 )
