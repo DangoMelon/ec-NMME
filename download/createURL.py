@@ -24,9 +24,9 @@ BASE = "http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.{MODEL_NAME}/.{TYP
 OUTPUT_DIR = "/data/users/grivera/NMME"
 
 utils.check_folder("models")
-utils.check_folder(OUTPUT_DIR)
 
 for MODEL_NAME, values in MODELS.items():
+    utils.check_folder(OUTPUT_DIR, MODEL_NAME)
     if "base" in values:
         continue
     for TYPE, _v in values.items():
@@ -35,7 +35,7 @@ for MODEL_NAME, values in MODELS.items():
         with open(f"models/{MODEL_NAME}.{TYPE}.txt", "w") as f:
             for MEMBER in members:
                 FILE_NAME = os.path.join(
-                    OUTPUT_DIR, f"{MODEL_NAME}.{TYPE}.M{MEMBER}.nc"
+                    OUTPUT_DIR, MODEL_NAME, f"{MODEL_NAME}.{TYPE}.M{MEMBER}.nc"
                 )
                 URL = BASE.format(
                     MODEL_NAME=MODEL_NAME, TYPE=TYPE, PREFIX=PREFIX, MEMBER=MEMBER
