@@ -1,0 +1,15 @@
+/data/users/grivera/NMME/GFDL-SPEAR/GFDL-SPEAR.HINDCAST.M1.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.GFDL-SPEAR/.HINDCAST/.MONTHLY/.sst/M/(1)VALUES/data.nc
+/data/users/grivera/NMME/GFDL-SPEAR/GFDL-SPEAR.HINDCAST.M2.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.GFDL-SPEAR/.HINDCAST/.MONTHLY/.sst/M/(2)VALUES/data.nc
+/data/users/grivera/NMME/GFDL-SPEAR/GFDL-SPEAR.HINDCAST.M3.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.GFDL-SPEAR/.HINDCAST/.MONTHLY/.sst/M/(3)VALUES/data.nc
+/data/users/grivera/NMME/GFDL-SPEAR/GFDL-SPEAR.HINDCAST.M4.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.GFDL-SPEAR/.HINDCAST/.MONTHLY/.sst/M/(4)VALUES/data.nc
+/data/users/grivera/NMME/GFDL-SPEAR/GFDL-SPEAR.HINDCAST.M5.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.GFDL-SPEAR/.HINDCAST/.MONTHLY/.sst/M/(5)VALUES/data.nc
+/data/users/grivera/NMME/GFDL-SPEAR/GFDL-SPEAR.HINDCAST.M6.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.GFDL-SPEAR/.HINDCAST/.MONTHLY/.sst/M/(6)VALUES/data.nc
+/data/users/grivera/NMME/GFDL-SPEAR/GFDL-SPEAR.HINDCAST.M7.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.GFDL-SPEAR/.HINDCAST/.MONTHLY/.sst/M/(7)VALUES/data.nc
+/data/users/grivera/NMME/GFDL-SPEAR/GFDL-SPEAR.HINDCAST.M8.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.GFDL-SPEAR/.HINDCAST/.MONTHLY/.sst/M/(8)VALUES/data.nc
+/data/users/grivera/NMME/GFDL-SPEAR/GFDL-SPEAR.HINDCAST.M9.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.GFDL-SPEAR/.HINDCAST/.MONTHLY/.sst/M/(9)VALUES/data.nc
+/data/users/grivera/NMME/GFDL-SPEAR/GFDL-SPEAR.HINDCAST.M10.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.GFDL-SPEAR/.HINDCAST/.MONTHLY/.sst/M/(10)VALUES/data.nc
+/data/users/grivera/NMME/GFDL-SPEAR/GFDL-SPEAR.HINDCAST.M11.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.GFDL-SPEAR/.HINDCAST/.MONTHLY/.sst/M/(11)VALUES/data.nc
+/data/users/grivera/NMME/GFDL-SPEAR/GFDL-SPEAR.HINDCAST.M12.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.GFDL-SPEAR/.HINDCAST/.MONTHLY/.sst/M/(12)VALUES/data.nc
+/data/users/grivera/NMME/GFDL-SPEAR/GFDL-SPEAR.HINDCAST.M13.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.GFDL-SPEAR/.HINDCAST/.MONTHLY/.sst/M/(13)VALUES/data.nc
+/data/users/grivera/NMME/GFDL-SPEAR/GFDL-SPEAR.HINDCAST.M14.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.GFDL-SPEAR/.HINDCAST/.MONTHLY/.sst/M/(14)VALUES/data.nc
+/data/users/grivera/NMME/GFDL-SPEAR/GFDL-SPEAR.HINDCAST.M15.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.GFDL-SPEAR/.HINDCAST/.MONTHLY/.sst/M/(15)VALUES/data.nc
