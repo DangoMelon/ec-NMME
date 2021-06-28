@@ -1,4 +1,5 @@
 import numpy as np
+from dmelon import utils
 
 MODELS = {
     "CanCM4i": {"HINDCAST": {"members": 10}, "FORECAST": {"members": 10}},
@@ -18,6 +19,8 @@ MODELS = {
 }
 
 BASE = "http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.{MODEL_NAME}/.{TYPE}/{PREFIX}.MONTHLY/.sst/M/({MEMBER})VALUES/data.nc"
+
+utils.check_folder("models")
 
 for MODEL_NAME, values in MODELS.items():
     if "base" in values:
