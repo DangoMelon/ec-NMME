@@ -12,7 +12,7 @@ MODELS = {
             "prefix": ".EARLY_MONTH_SAMPLES/",
         },
     },
-    "GEN-NEMO": {"HINDCAST": {"members": 10}, "FORECAST": {"members": 10}},
+    "GEM-NEMO": {"HINDCAST": {"members": 10}, "FORECAST": {"members": 10}},
     "GFDL-CM2p1-aer04": {"base": {"members": 10}},
     "GFDL-CM2p5-FLOR-A06": {"base": {"members": 12}},
     "GFDL-CM2p5-FLOR-B01": {"base": {"members": 12}},
