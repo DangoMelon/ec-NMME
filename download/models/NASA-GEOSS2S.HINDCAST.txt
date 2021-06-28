@@ -1,4 +1,0 @@
-/data/users/grivera/NMME/NASA-GEOSS2S/NASA-GEOSS2S.HINDCAST.M1.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.NASA-GEOSS2S/.HINDCAST/.MONTHLY/.sst/M/(1)VALUES/data.nc
-/data/users/grivera/NMME/NASA-GEOSS2S/NASA-GEOSS2S.HINDCAST.M2.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.NASA-GEOSS2S/.HINDCAST/.MONTHLY/.sst/M/(2)VALUES/data.nc
-/data/users/grivera/NMME/NASA-GEOSS2S/NASA-GEOSS2S.HINDCAST.M3.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.NASA-GEOSS2S/.HINDCAST/.MONTHLY/.sst/M/(3)VALUES/data.nc
-/data/users/grivera/NMME/NASA-GEOSS2S/NASA-GEOSS2S.HINDCAST.M4.nc http://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.NASA-GEOSS2S/.HINDCAST/.MONTHLY/.sst/M/(4)VALUES/data.nc
